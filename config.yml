@@ -1,0 +1,14 @@
+num-shards: 8
+
+# Latencies
+delta: 1s
+tx-production-delay: 1ms # How often to produce one tx
+avg-shard-tx-processing-latency: 12ms # Time it takes each shard to process 1 tx (roughly 84 txs/sec)
+
+# Capacities
+shard-queue-buffer-size: 100 # Number of txs shard can hold in its queue at a time
+
+# Simulation tweaks
+probability-of-cross-shard: 0.3
+simulation-duration: 5m
+metrics-reporting-interval: 100ms
