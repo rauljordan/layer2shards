@@ -9,6 +9,6 @@ avg-shard-tx-processing-latency: 12ms # Time it takes each shard to process 1 tx
 shard-queue-buffer-size: 100 # Number of txs shard can hold in its queue at a time
 
 # Simulation tweaks
-probability-of-cross-shard: 0.3
+probability-of-cross-shard: 0.4
 simulation-duration: 5m
 metrics-reporting-interval: 100ms
